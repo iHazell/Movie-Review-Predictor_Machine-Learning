@@ -7,9 +7,9 @@ For Assignment Machine learning - Deployment into Docker
 st125894 Paradorn Khanongsuwan [Hazell]
 
 For deployment 
-- app.py
+     - app.py
     - templates
-    - index.html
+        - index.html
     - requirement.txt
     - sentiment_model.pkl
     - tfidf_vertorizer.pkl
