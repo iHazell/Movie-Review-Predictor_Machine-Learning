@@ -4,7 +4,7 @@ For Assignment Machine learning - Deployment into Docker
 1. "NLP_Assignment" contain with training model and EDA 
 2. Result from training has 2 files
 	- sentiment_model.pkl
-	- tfidf_vectorizer
+	- tfidf_vectorizer.pkl
 	
 
 For deployment we use these file upload into docker: 
