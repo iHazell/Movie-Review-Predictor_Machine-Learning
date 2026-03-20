@@ -5,3 +5,11 @@ For Assignment Machine learning - Deployment into Docker
 	- sentiment_model.pkl
 	- tfidf_vectorizer
 st125894 Paradorn Khanongsuwan [Hazell]
+
+For deployment 
+	- app.py
+	- templates
+		- index.html
+	- requirement.txt
+	- sentiment_model.pkl
+	- tfidf_vertorizer.pkl
