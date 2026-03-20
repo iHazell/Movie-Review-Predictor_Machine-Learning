@@ -4,7 +4,7 @@ For Assignment Machine learning - Deployment into Docker
 2. Result from training has 2 files
 	- sentiment_model.pkl
 	- tfidf_vectorizer
-st125894 Paradorn Khanongsuwan [Hazell]
+	st125894 Paradorn Khanongsuwan [Hazell]
 
 For deployment 
      - app.py
