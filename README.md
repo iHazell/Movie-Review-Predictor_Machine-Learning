@@ -8,7 +8,8 @@ For Assignment Machine learning - Deployment into Docker
 	
 
 For deployment 
-     - app.py
+   
+	 - app.py
 
 	 
     - templates
