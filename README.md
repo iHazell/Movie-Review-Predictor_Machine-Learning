@@ -10,8 +10,7 @@ For Assignment Machine learning - Deployment into Docker
 For deployment we use these file upload into docker: 
    
 	 - app.py
-
-	 
+ 
     - templates
 	
         - index.html
