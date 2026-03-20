@@ -14,3 +14,5 @@ For deployment
     - requirement.txt
     - sentiment_model.pkl
     - tfidf_vertorizer.pkl
+
+http://192.41.170.112:5894
