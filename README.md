@@ -9,11 +9,18 @@ For Assignment Machine learning - Deployment into Docker
 
 For deployment 
      - app.py
+
+	 
     - templates
+	
         - index.html
+		
     - requirement.txt
+	
     - sentiment_model.pkl
+	
     - tfidf_vertorizer.pkl
+	
 
 Deploy website : http://192.41.170.112:5894
 
