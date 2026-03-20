@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Review Predictor</title>
+</head>
+<body>
+    <h2>🎬 Movie Review Predictor</h2>
+    
+    <textarea id="val" rows="5" cols="50" placeholder="Enter movie review here..."></textarea><br><br>
+    
+    <button onclick="sendData()">Predict</button>
+    
+    <h3 id="result"></h3>
+
+    <script>
+        async function sendData() {
+            const text_val = document.getElementById('val').value;
+            
+            
+            const response = await fetch('/predict', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({review: text_val}) 
+            });
+            
+            
+            const result = await response.json();
+            document.getElementById('result').innerText = "Prediction: " + result.prediction;
+        }
+    </script>
+</body>
+</html>
