@@ -15,4 +15,6 @@ For deployment
     - sentiment_model.pkl
     - tfidf_vertorizer.pkl
 
-http://192.41.170.112:5894
+Deploy website : http://192.41.170.112:5894
+Data source : https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+IMDB Dataset of 50K Movie Reviews
