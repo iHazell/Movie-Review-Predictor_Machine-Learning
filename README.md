@@ -7,7 +7,7 @@ For Assignment Machine learning - Deployment into Docker
 	- tfidf_vectorizer
 	
 
-For deployment 
+For deployment we use these file upload into docker: 
    
 	 - app.py
 
