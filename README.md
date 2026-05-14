@@ -56,6 +56,7 @@ Word clouds:
 
 TF‑IDF features: The most discriminative terms align with sentiment.
 
+---
 
 ## 🔧 Future Improvements
 - Experiment with deep learning (LSTM, BERT) for higher accuracy.
@@ -65,6 +66,8 @@ TF‑IDF features: The most discriminative terms align with sentiment.
 - Support batch prediction from uploaded CSV/JSON files.
 
 - Deploy on a public cloud (AWS, GCP, Heroku) with a custom domain.
+
+---
 
 ## 📜 Citation
 If you use this code, model, or ideas in your work, please cite:
@@ -76,6 +79,8 @@ bibtex
   year={2025},
   howpublished={\url{https://github.com/iHazelly/Movie-Review-Predictor_Machine-Learning}}
 }
+
+---
 
 ## 🤖 AI Use Declaration
 During the development of this project, AI tools were used for:
@@ -90,11 +95,14 @@ During the development of this project, AI tools were used for:
 
 **However,** all core model design, data preprocessing, feature engineering, result interpretation, and final technical decisions were made by the author (Paradorn Khanongsuwan). All AI‑generated outputs have been manually verified and adapted.
 
-🙏 Acknowledgements
-Dataset: IMDB Dataset of 50K Movie Reviews by Lakshmi Narasimhan.
+---
 
-Libraries: scikit‑learn, Flask, pandas, matplotlib, wordcloud, joblib.
+## 🙏 Acknowledgements
 
-Institution: Asian Institute of Technology (AIT) – for academic guidance.
+**Dataset:** IMDB Dataset of 50K Movie Reviews by Lakshmi Narasimhan.
+
+**Libraries:** scikit‑learn, Flask, pandas, matplotlib, wordcloud, joblib.
+
+**Institution:** Asian Institute of Technology (AIT) – for academic guidance.
 
 
