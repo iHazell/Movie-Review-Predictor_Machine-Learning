@@ -74,7 +74,7 @@ bibtex
   title={Movie Review Sentiment Predictor using TF‑IDF and Logistic Regression},
   author={Khanongsuwan, Paradorn},
   year={2025},
-  howpublished={\url{https://github.com/yourusername/Movie-Review-Predictor}}
+  howpublished={\url{https://github.com/iHazelly/Movie-Review-Predictor_Machine-Learning}}
 }
 
 ## 🤖 AI Use Declaration
