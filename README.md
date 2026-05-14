@@ -72,7 +72,6 @@ TF‑IDF features: The most discriminative terms align with sentiment.
 ## 📜 Citation
 If you use this code, model, or ideas in your work, please cite:
 
-bibtex
 @misc{khanongsuwan_2025_movie_sentiment,
   title={Movie Review Sentiment Predictor using TF‑IDF and Logistic Regression},
   author={Khanongsuwan, Paradorn},
