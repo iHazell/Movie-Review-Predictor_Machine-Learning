@@ -1,28 +1,51 @@
-st125894 Paradorn Khanongsuwan [Hazell]
-# Movie-Review-Predictor_Machine-Learning
-For Assignment Machine learning - Deployment into Docker
-1. "NLP_Assignment" contain with training model and EDA 
-2. Result from training has 2 files
-	- sentiment_model.pkl
-	- tfidf_vectorizer.pkl
-	
+# 🎬 Movie Review Sentiment Predictor
 
-For deployment we use these file upload into docker: 
-   
-	 - app.py
- 
-    - templates
-	
-        - index.html
-		
-    - requirement.txt
-	
-    - sentiment_model.pkl
-	
-    - tfidf_vertorizer.pkl
-	
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Accuracy](https://img.shields.io/badge/Accuracy-88.7%25-brightgreen)
+![Flask](https://img.shields.io/badge/Flask-2.3.3-lightgrey)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue)
 
-Deploy website : http://192.41.170.112:5894
+A machine learning web application that predicts whether a movie review is **positive** or **negative** using **TF‑IDF** and **Logistic Regression**. The model is deployed as a lightweight **Flask** web app and can be run locally or inside a **Docker** container.
 
-Data source : https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+---
 
+## 📌 Overview
+
+- **Problem**: Manually reading thousands of movie reviews to gauge public sentiment is time‑consuming. An automated classifier can provide instant feedback.  
+- **Solution**: A Logistic Regression model trained on 50,000 IMDB reviews, achieving **88.7% accuracy**.  
+- **Deployment**: The model is served via a simple HTML form + Flask API, containerized with Docker for easy replication.
+
+---
+
+## 🚀 Features
+
+- **Text Preprocessing**: HTML tag removal, punctuation stripping, lowercase conversion.  
+- **Feature Extraction**: TF‑IDF vectorization (5,000 most frequent terms, English stop words removed).  
+- **Classification**: Logistic Regression (scikit‑learn).  
+- **Web Interface**: User‑friendly form to type or paste a review, get an instant sentiment prediction.  
+- **Docker Support**: Ready‑to‑run container with all dependencies.
+
+---
+
+## 📊 Model Performance
+
+Evaluated on a hold‑out test set of 10,000 reviews (20% of the dataset).
+
+| Metric      | Negative (0) | Positive (1) | Average |
+|-------------|--------------|--------------|---------|
+| Precision   | 0.90         | 0.87         | 0.89    |
+| Recall      | 0.87         | 0.91         | 0.89    |
+| F1‑score    | 0.88         | 0.89         | 0.89    |
+
+**Overall accuracy**: **0.887**
+
+---
+
+## 🐳 How to Run
+
+### Local (without Docker)
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Movie-Review-Predictor.git
+   cd Movie-Review-Predictor
