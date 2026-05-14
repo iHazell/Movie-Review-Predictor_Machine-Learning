@@ -50,8 +50,51 @@ Word count distribution: Positive reviews tend to be slightly longer.
 
 Word clouds:
 
-Positive reviews: great, best, amazing, wonderful.
+**Positive reviews**: great, best, amazing, wonderful.
 
-Negative reviews: worst, awful, boring, terrible.
+**Negative reviews**: worst, awful, boring, terrible.
 
 TF‑IDF features: The most discriminative terms align with sentiment.
+
+
+## 🔧 Future Improvements
+- Experiment with deep learning (LSTM, BERT) for higher accuracy.
+
+- Add confidence scores and probability visualization.
+
+- Support batch prediction from uploaded CSV/JSON files.
+
+- Deploy on a public cloud (AWS, GCP, Heroku) with a custom domain.
+
+## 📜 Citation
+If you use this code, model, or ideas in your work, please cite:
+
+bibtex
+@misc{khanongsuwan_2025_movie_sentiment,
+  title={Movie Review Sentiment Predictor using TF‑IDF and Logistic Regression},
+  author={Khanongsuwan, Paradorn},
+  year={2025},
+  howpublished={\url{https://github.com/yourusername/Movie-Review-Predictor}}
+}
+
+## 🤖 AI Use Declaration
+During the development of this project, AI tools were used for:
+
+- Language translation and sentence refinement
+
+- Code suggestions, debugging, and structural guidance
+
+- Writing assistance for the report and this README
+
+- Brainstorming and conceptual support
+
+**However,** all core model design, data preprocessing, feature engineering, result interpretation, and final technical decisions were made by the author (Paradorn Khanongsuwan). All AI‑generated outputs have been manually verified and adapted.
+
+🙏 Acknowledgements
+Dataset: IMDB Dataset of 50K Movie Reviews by Lakshmi Narasimhan.
+
+Libraries: scikit‑learn, Flask, pandas, matplotlib, wordcloud, joblib.
+
+Institution: Asian Institute of Technology (AIT) – for academic guidance.
+
+
