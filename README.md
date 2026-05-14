@@ -41,11 +41,17 @@ Evaluated on a hold‑out test set of 10,000 reviews (20% of the dataset).
 
 ---
 
-## 🐳 How to Run
+## 📈 Exploratory Data Analysis (EDA)
+Key insights from the training notebook:
 
-### Local (without Docker)
+Balanced dataset: 25,000 positive & 25,000 negative reviews.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Movie-Review-Predictor.git
-   cd Movie-Review-Predictor
+Word count distribution: Positive reviews tend to be slightly longer.
+
+Word clouds:
+
+Positive reviews: great, best, amazing, wonderful.
+
+Negative reviews: worst, awful, boring, terrible.
+
+TF‑IDF features: The most discriminative terms align with sentiment.
